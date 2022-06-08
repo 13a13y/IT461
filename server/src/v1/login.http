@@ -1,0 +1,24 @@
+<<<<<<< HEAD
+@host = http://127.0.0.1:6000/v1
+=======
+@host = http://127.0.0.1:8080/v1
+>>>>>>> upstream/master
+
+
+### Login
+POST {{host}}/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin"
+}
+
+
+### Token verification
+<<<<<<< HEAD
+GET {{host}}/verify-token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOjEwMCwiZXhwIjoxNjUyOTQyNjc4fQ.RiKfVMf5DTxB2FKIemCIutolVdiYVhalL4qIrXBGLpQ HTTP/1.1
+=======
+GET {{host}}/verify-token?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWQiOjEwMCwiZXhwIjoxNjUyODUyMDE0fQ.e7fPAyd3kO-0s_QRoUVpR9KcbbjW24e8-7DKBeGv6WI HTTP/1.1
+
+>>>>>>> upstream/master
